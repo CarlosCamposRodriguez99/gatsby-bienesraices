@@ -1,0 +1,93 @@
+.footer {
+  background-color:#0D283B;
+  padding: 5rem 0;
+  margin-top: 5rem;
+  display: flex;
+}
+@media(min-width:768px) {
+  .contenido {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+}
+.navegacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media(min-width:768px) {
+  .navegacion {
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
+.navegacion a {
+  text-decoration: none;
+  font-size: 2.8rem;
+  color: var(--blanco);
+  font-weight: 700;
+}
+
+.navegacion a:hover {
+  color: var(--primary);
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--blanco);
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 450;
+}
+@media(min-width:1200px) {
+  .copyright {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 100;
+  }
+}
+.list {
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+  align-items: center;
+}
+@media(min-width:1200px) {
+  .list {
+    flex-direction: row;
+  }
+}
+/*aqui nos quedamos perro*/
+.iconoInsta {
+  background-image: url("../src/css/img/instagram-brands.svg");
+  padding: 3rem; 
+  font-size: 24px;
+  padding-bottom: 0;
+  background-repeat: no-repeat;
+}
+.iconoFace {
+  background-image: url("../src/css/img/facebook-square-brands.svg");
+  padding: 3rem; 
+  font-size: 24px;
+  padding-bottom: 0;
+  background-repeat: no-repeat;
+}
+.iconoWhats {
+  background-image: url("../src/css/imgwhatsapp-brands.svg");
+  padding: 3rem; 
+  font-size: 24px;
+  padding-bottom: 0;
+  background-repeat: no-repeat;
+}
+.iconoLinke {
+  background-image: url("../public/img/linkedin-brands.svg");
+  padding: 3rem; 
+  font-size: 24px;
+  padding-bottom: 0;
+  background-repeat: no-repeat;
+}

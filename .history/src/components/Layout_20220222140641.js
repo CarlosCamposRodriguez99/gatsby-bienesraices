@@ -1,0 +1,18 @@
+import React from 'react'
+import Helmet from 'react-helmet'
+
+const Layout = ({children}) => {
+  return (
+    <>
+        <Helmet>
+          <tilte></tilte>
+
+        </Helmet>
+        {children}
+    
+    
+    </>
+  )
+}
+
+export default Layout

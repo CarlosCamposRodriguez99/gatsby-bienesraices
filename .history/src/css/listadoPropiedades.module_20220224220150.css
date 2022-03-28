@@ -1,0 +1,8 @@
+.propiedades {
+  max-width: 1200px;
+  width: 95%;
+  margin: 4rem auto 0 auto;
+}
+@media(min-width: 480px) {
+  
+}
